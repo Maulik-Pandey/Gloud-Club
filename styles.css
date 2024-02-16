@@ -96,3 +96,37 @@ footer{
     padding:20px;
     font-weight: lighter;
 }
+
+/* Media Queries for Mobile Devices */
+
+@media only screen and (max-width: 768px) {
+    .logo{
+        width: 100%;
+    }
+
+    .container-nav{
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    nav ul li a{
+        padding: 10px;
+    }
+
+    .header{
+        font-size: 24px;
+    }
+
+    .carousel-item img{
+        height: auto;
+        width: 100%;
+    }
+
+    .aws{
+        width: 30%;
+    }
+
+    .social-icon{
+        margin: 10px 3px;
+    }
+}
