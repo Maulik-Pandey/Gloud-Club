@@ -105,21 +105,24 @@ footer{
     }
 
     .container-nav{
-        margin-left: 0;
+        margin-left: 45%;
         justify-content: center;
     }
 
     nav ul li a{
         padding: 10px;
+        font-size: 12px;
     }
 
     .header{
         font-size: 24px;
     }
-
-    .carousel-item img{
-        height: auto;
+    .headerImage{
         width: 100%;
+    }
+    .carousel-item img{
+        height: 108px;
+        width: 200px;
     }
 
     .aws{
